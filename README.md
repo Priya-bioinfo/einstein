@@ -5,7 +5,7 @@
 
 - 👯 HackBio Channel [https://hackbio-internship.github.io/webpage-test/](https://hackbio-internship.github.io/webpage-test/)
 
-- 📫 How to reach us **nishapujari6616@gmail.com**
+- 📫 How to reach us **shanmugapriyab18@gmail.com**
 
 
 <h3 align="left">Languages and Tools:</h3>
