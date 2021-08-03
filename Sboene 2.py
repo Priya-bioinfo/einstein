@@ -11,5 +11,5 @@ Email = "Kamila.issabayeva@nu.edu.kz"
 Slackname = "@Kamila"
 Biostack = "-"
 
-print(Name, Email, Slackname, Biostack)
+print(Name + Email + Slackname + Biostack)
 
