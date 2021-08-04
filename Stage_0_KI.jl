@@ -1,11 +1,11 @@
 Name = "Kamila Issabayeva" 
 Email = "kamila.issabayeva@nu.edu.kz "
-Slackname = "@Kamila"
-Twittername = "@Kissabayeva"
+Slack_username = "@Kamila"
+Twitter_handler = "@Kissabayeva"
 Biostack = "Genomics"
 Hamming_dist = 0
 for i in 1:length(Slackname)
-    if Slackname[i] != Twittername[i] 
+    if Slack_username[i] != Twitter_handler[i] 
         global Hamming_dist += 1 
     end  
 end        
