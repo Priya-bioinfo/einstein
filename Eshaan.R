@@ -1,4 +1,4 @@
-install.packages("DescTools", verbose = FALSE)
+install.packages("DescTools", verbose = FALSE, quiet = TRUE)
 suppressPackageStartupMessages(library(DescTools))
 name <- "Eshaan"
 email <- "eshaan.nex@gmail.com"
