@@ -1,5 +1,5 @@
-install.packages("DescTools")
-library(DescTools)
+install.packages("DescTools", verbose = FALSE)
+suppressPackageStartupMessages(library(DescTools))
 name <- "Eshaan"
 email <- "eshaan.nex@gmail.com"
 slack_username <- "@eshaan  "
