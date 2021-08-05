@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, we are "Team Einstein"</h1>
 <h3 align="center">A team of 20 members for HackBio'2021 Virtual Bioinformatics Internship</h3>
 
-- 🔭 We are currently working on **team_einstein_project**
+- 🔭 We are currently working on <a href="https://github.com/Priya-bioinfo/-einstein">**team_einstein_project**</a>
 
 - 👯 HackBio Channel [https://hackbio-internship.github.io/webpage-test/](https://hackbio-internship.github.io/webpage-test/)
 
