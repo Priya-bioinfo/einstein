@@ -1,6 +1,17 @@
 #!/bin/bash
 git clone https://github.com/Priya-bioinfo/einstein.git
 cd einstein
+list1=*.sh
+listsh=()
+
+for i in $list1;
+do
+	if [ $i != "einstein_Hackbio.sh" ]
+	then
+		chmod +x $i
+		listsh+=( $i )
+	fi;
+done
 touch einstein_Hackbio.csv
 for f in *.R;do Rscript "$f">>einstein_Hackbio.csv;done
 for f in *.pl;do perl "$f">>einstein_Hackbio.csv;done
@@ -13,7 +24,7 @@ for f in *.c;do out1=${f:0:-2}
 for f in *.java;do out1=${f:0:-5}
 		javac $f             
 		java $out1 >>stage0.csv;done
-for f in *.sh;do ./"$f">>einstein_Hackbio.csv;done
+for f in $listsh;do ./"$f">>einstein_Hackbio.csv;done
 cat stage0.csv
  
 
