@@ -12,6 +12,18 @@ do
 		listsh+=( $i )
 	fi;
 done
+
+list2=*.jl
+listjl=()
+
+for i in $list2;
+do
+	if [ $i != "einstein_Hackbio.sh" ]
+	then
+		chmod +x $i
+		listjl+=( $i )
+	fi;
+done
 touch einstein_Hackbio.csv
 for f in *.R;do Rscript "$f">>einstein_Hackbio.csv;done
 for f in *.pl;do perl "$f">>einstein_Hackbio.csv;done
