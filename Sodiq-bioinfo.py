@@ -1,9 +1,6 @@
 Name = "Sodiq"
-Email = "oyekunlesodiq7@gmail.com"
-slackName = "@sud"
-bioStack = "Genomics"
+E-mail = "oyekunlesodiq7@gmail.com"
+slack_username = "@sud"
+biostack = "Genomics"
 
-print(Name)
-print(Email)
-print(slackName)
-print(bioStack)
+print(Name+","+E-mail+","+slack_username+","+biostack)
