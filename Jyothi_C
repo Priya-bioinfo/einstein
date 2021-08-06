@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s1[10] = "Jyothi";
+    char s2[10] = "Jyothi28";
+    int i = 0, length = 0, count = 0;
+    length = strlen(s2);
+    for (i=0; i < length; i++)
+    {
+        if (s1[i] != s2[i])
+            count++;
+    }
+    return count;
+    printf("Name: Jyothi Guruprasad \n");
+    printf("Email: vinjyothi14@gmail.com \n");
+    printf("Slack name: @Jyothi \n");
+    printf("Biostack: Genomics \n");
+    printf("Twitter handle: @Jyothi28 \n");
+    printf("Hamming distance: %d", count);
+    
+}
