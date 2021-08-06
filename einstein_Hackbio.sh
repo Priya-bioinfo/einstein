@@ -25,6 +25,6 @@ for f in *.java;do out1=${f:0:-5}
 		javac $f             
 		java $out1 >>stage0.csv;done
 for f in $listsh;do ./"$f">>einstein_Hackbio.csv;done
-cat stage0.csv
+cat einstein_Hackbio.csv
  
 
