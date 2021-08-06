@@ -21,7 +21,7 @@ def main():
     Biostack = "Genomics"
     twitter_handle = "@chilouissa"
     Hamming_distance = hamming_distance_function(twitter_handle, Slack_username)
-    print("Hamming Distance = ", Hamming_distance)
+    #print("Hamming Distance = ", Hamming_distance)
     # Final print statements
     print(name+","+Email+","+Slack_username+","+Biostack+","+twitter_handle+","+str(Hamming_distance))
     
