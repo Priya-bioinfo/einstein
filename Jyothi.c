@@ -13,5 +13,5 @@ int main()
             count++;
     }
     
-    printf("Jyothi Guruprasad,vinjyothi14@gmail.com,@Jyothi,Genomics,@Jyothi28,%d",count);    
+    printf("Jyothi Guruprasad,vinjyothi14@gmail.com,@Jyothi,Genomics,@Jyothi28,%d\n",count);    
 }
