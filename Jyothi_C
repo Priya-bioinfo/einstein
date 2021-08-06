@@ -13,11 +13,5 @@ int main()
             count++;
     }
     return count;
-    printf("Name: Jyothi Guruprasad \n");
-    printf("Email: vinjyothi14@gmail.com \n");
-    printf("Slack name: @Jyothi \n");
-    printf("Biostack: Genomics \n");
-    printf("Twitter handle: @Jyothi28 \n");
-    printf("Hamming distance: %d", count);
-    
+    printf("Jyothi Guruprasad, vinjyothi14@gmail.com, @Jyothi, Genomics, @Jyothi28, 2");    
 }
