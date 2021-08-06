@@ -13,5 +13,4 @@ sub hd
 
 $dis = hd($username,$twitter);
 
-print"\nName= $name\nEmail = $Email\nSlack_username= $username\nTwitter_Handler = $twitter\nBiostack = $Biostack";
-print"\nHamming_Distance = $dis";
+print"$name,$Email,$username,$Biostack,$twitter,$dis\n";
