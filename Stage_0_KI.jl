@@ -1,15 +1,20 @@
 Name = "Kamila Issabayeva" 
-Email = "kamila.issabayeva@nu.edu.kz "
-Slack_username = "@Kamila"
-Twitter_handler = "@Kissabayeva"
+Email = "kamila.issabayeva@nu.edu.kz"
 Biostack = "Genomics"
-Hamming_dist = 0
+Slack_username = "@Kamila"
+Twitter_handler = "@Kamilaissabayeva"
+   if length(Twitter_handler) == length(Slack_username)
+    hd = 0 
+   elseif  length(Twitter_handler) > length(Slack_username)
+    hd = length(Twitter_handler) - length(Slack_username)
+   elseif  length(Twitter_handler) < length(Slack_username)
+    hd = length(Slack_username) - length(Twitter_handler)
+   end
+
 for i in 1:length(Slack_username)
-    if Slack_username[i] != Twitter_handler[i] 
-        global Hamming_dist += 1 
-    end  
-    if length(Slack_username) != length(Twitter_handler)
-        global Hamming_dist += 1
-    end
-end        
-println("$Name,$Email,$Slack_username,$Twitter_handler,$Biostack,$Hamming_dist")
+    if Slack_username[i] != Twitter_handler[i]
+        global hd += 1
+    end 
+
+end
+println("$Name, $Email, $Biostack, $Slack_username, $Twitter_handler, $hd")
