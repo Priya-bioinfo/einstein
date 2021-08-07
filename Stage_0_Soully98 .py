@@ -1,7 +1,7 @@
 Name = "Mohamed Abdelsalam Farag"
 Email = "momosalam98@gmail.com"
 Slackname = "@soully98"
-Twitter= "soully98"
+Twitter= "@soully98"
 Biostack = "Genomics"
 
 s1="soully98"
