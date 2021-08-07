@@ -3,7 +3,7 @@
 :'Prerequisites
 1)git installed
 2)change the execution permissions of the script
-3)Packages should be equal to or above the following: Perl v5.30.0, Python 3.8.10, julia version 1.4.1, gcc version 9.3.0, java 1.8.0_292, BASH 5.0.17(1), R 3.6
+3)Packages should be equal to or above the following: Perl v5.30.0, Python 3.8.10, julia version 1.4.1, gcc version 9.3.0, java 1.8.0_292, BASH 5.0.17(1), R 3.6 (DescTools package installed)
 
 Run the command: "$./einstein_Hackbio.sh" in the terminal'
 
