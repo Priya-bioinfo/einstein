@@ -16,10 +16,10 @@
 **This is the main repository for the HackBio'2021 Virtual Internship Program. Main goal of the project is to write the small scripts in different languages which prints the Name, E-mail, slack_username, biostack, twitter_handle and the hamming distance between the slack & twitter usernames. After completing the scripting we have to make csv file with rows corresponding to the person and columns to the values (as name, e-mail, slack_username, biostack, twitter handle and hamming distance between slack_username and twitter handle) in bash, using outputs from scripts.**
 
 ## Prerequisites:
-* 1)git installed 
-* 2)change the execution permissions of the script  
-* 3)Packages should be equal to or above the following: Perl v5.30.0, Python 3.8.10, julia version 1.4.1, gcc version 9.3.0, java 1.8.0_292, BASH 5.0.17(1), R 3.6   (DescTools package installed)**
-**Run the command, "$./einstein_Hackbio.sh" in the terminal **
+* git installed 
+* change the execution permissions of the script  
+* Packages should be equal to or above the following: Perl v5.30.0, Python 3.8.10, julia version 1.4.1, gcc version 9.3.0, java 1.8.0_292, BASH 5.0.17(1), R 3.6   (DescTools package installed)**
+***Run the command, "$./einstein_Hackbio.sh" in the terminal***
 
 
 <p align="center">
