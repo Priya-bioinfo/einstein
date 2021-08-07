@@ -5,8 +5,9 @@ biostack = "geneomics"
 twitter_handle = "@marotihsdkwe"
 
 def Hamm_dist(s1,s2):
+	ham=0
 	for i in range (len(s1)):
-    ham=0
+    	
 		if s1[i] != s2 [i]:
 			ham=ham+1
   return ham
