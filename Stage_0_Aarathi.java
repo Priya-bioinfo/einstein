@@ -1,4 +1,4 @@
-public class Aarathi{
+public class Stage_0_Aarathi{
 
 static int hammingDist(String str1, String str2)
 {
