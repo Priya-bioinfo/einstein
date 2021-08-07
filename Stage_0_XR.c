@@ -25,6 +25,6 @@ int main()
         }
 	differe = big-small;
 	hd = hd+differe;
-	printf("BHUSHAN WAGH,waghbhushan1123@gmail.com,@XR,Software Development,@Bhushan44825,%d\n",hd); 
+	printf("Bhushan Wagh,waghbhushan1123@gmail.com,@XR,Software Development,@Bhushan44825,%d\n",hd); 
 	return 0;
 }
