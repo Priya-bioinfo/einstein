@@ -16,4 +16,4 @@ def hamming_distance (x,y):
 			d =+ 1
 	d=d+difference
 	return d
-print (name+","+","+ email+","+ slackUsername+","+ biostack+","+ twitter_handle+","+str(hamming_distance (x,y)))
+print (name+","+ email+","+ slackUsername+","+ biostack+","+ twitter_handle+","+str(hamming_distance (x,y)))
