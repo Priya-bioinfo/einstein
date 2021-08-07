@@ -4,7 +4,7 @@ int main()
 { 
 
 	char str1[20] = "@XR";
-	char str2[20] = "@XRfinder";
+	char str2[20] = "@Bhushan44825";
 	int len, differe, small, big;
 
 	if ( strlen(str1) < strlen(str2) )
