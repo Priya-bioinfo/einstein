@@ -12,4 +12,4 @@ for i in 1:length(Slack_username)
         global Hamming_dist += 1
     end
 end        
-println("$Name , $Email , $Slack_username , $Twitter_handler , $Biostack , $Hamming_dist .")
+println("$Name,$Email,$Slack_username,$Twitter_handler,$Biostack,$Hamming_dist")
