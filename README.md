@@ -14,6 +14,14 @@
 
 ### Team Work
 **This is the main repository for the HackBio'2021 Virtual Internship Program. Main goal of the project is to write the small scripts in different languages which prints the Name, E-mail, slack_username, biostack, twitter_handle and the hamming distance between the slack & twitter usernames. After completing the scripting we have to make csv file with rows corresponding to the person and columns to the values (as name, e-mail, slack_username, biostack, twitter handle and hamming distance between slack_username and twitter handle) in bash, using outputs from scripts.**
+
+## Prerequisites:
+**1)git installed 
+2)change the execution permissions of the script  
+3)Packages should be equal to or above the following: Perl v5.30.0, Python 3.8.10, julia version 1.4.1, gcc version 9.3.0, java 1.8.0_292, BASH 5.0.17(1), R 3.6   (DescTools package installed)**
+***Run the command, "$./einstein_Hackbio.sh" in the terminal ***
+
+
 <p align="center">
 <p3><a href=""><img align="center" src="https://camo.githubusercontent.com/c58e07fb34a45fd051183258b5860608dd86ac98dd151d0522e0575966082b88/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e7340332e302e312f69636f6e732f747769747465722e737667" alt="tbi_internship" height="20" width="20" data-canonical-src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" style="max-width:100%;"></p3></a>
 <p3><a href=""><img align="center" src="https://camo.githubusercontent.com/aecaf87326884e8b0466bb799265a13fee7586246ebda3e066cb7fad82a1fd23/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f6e706d2f73696d706c652d69636f6e7340332e302e312f69636f6e732f696e7374616772616d2e737667" alt="ssiddhaantsharma" height="20" width="20" data-canonical-src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" style="max-width:100%;"></a></p3>
