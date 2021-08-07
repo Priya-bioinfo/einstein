@@ -34,7 +34,7 @@ for f in *.c;do out1=${f:0:-2}
 		./$out1 >>einstein_Hackbio.csv;done
 for f in *.java;do out1=${f:0:-5}
 		javac $f   
-echo "Completed succesfully"
 		java $out1 >>einstein_Hackbio.csv;done
 for f in $listsh;do ./"$f">>einstein_Hackbio.csv;done
 for f in *.R;do Rscript "$f">>einstein_Hackbio.csv;done
+echo "Completed succesfully"
