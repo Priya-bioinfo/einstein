@@ -5,7 +5,7 @@
 2)change the execution permissions of the script
 3)Packages should be equal to or above the following: Perl v5.30.0, Python 3.8.10, julia version 1.4.1, gcc version 9.3.0, java 1.8.0_292, BASH 5.0.17(1), R 4.0
 
-Run the command: "$./einstein_Hackbio.sh'
+Run the command: "$./einstein_Hackbio.sh" in the terminal'
 
 #Downloading repo to local machine
 git clone https://github.com/Priya-bioinfo/einstein.git
@@ -33,7 +33,8 @@ for f in *.c;do out1=${f:0:-2}
 		gcc $f -o $out1
 		./$out1 >>einstein_Hackbio.csv;done
 for f in *.java;do out1=${f:0:-5}
-		javac $f             
+		javac $f   
+echo "Completed succesfully"
 		java $out1 >>einstein_Hackbio.csv;done
 for f in $listsh;do ./"$f">>einstein_Hackbio.csv;done
 for f in *.R;do Rscript "$f">>einstein_Hackbio.csv;done
