@@ -10,3 +10,4 @@ biostack <- "drug discovery"
 twitter <- "@EshaanNex"
 hamming_distance <- StrDist(slack_username, twitter, method = "hamming")
 cat(paste(name, email, trimws(slack_username), biostack, twitter, hamming_distance, sep = ","))
+cat("\n")
