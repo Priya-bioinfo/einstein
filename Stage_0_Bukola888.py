@@ -1,10 +1,10 @@
 name=("Bukola Omena-Okpowe")
 email=("bomena@caledonian.ac.uk")
-slackuserid=("@bukola888")
+slackuserid=("@Bukola888")
 twitter=("@tbfabunmi")
 biostack=("drug discovery and development")
 
-s1='@bukola888'
+s1='@Bukola888'
 s2='@tbfabunmi'
 def h_distance(s1,s2):
     h_distance = 0
