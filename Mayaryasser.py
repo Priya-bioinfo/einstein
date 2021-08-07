@@ -1,0 +1,6 @@
+print("My name is Mayar Yasser")
+print("Email:mirayasser272@gmail.com")
+print("slack usernamr:@marotihfkkwe")
+print("biostack:Genomics")
+print("twitter handel:@marotihsdkwe")
+print("hamming distance:2")
