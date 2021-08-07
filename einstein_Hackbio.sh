@@ -27,7 +27,7 @@ touch einstein_Hackbio.csv
 
 #Executing files
 for f in *.pl;do perl "$f">>einstein_Hackbio.csv;done
-for f in *py;do python "$f">>einstein_Hackbio.csv;done
+for f in *.py;do python "$f">>einstein_Hackbio.csv;done
 for f in *.jl;do julia "$f">>einstein_Hackbio.csv;done
 for f in *.c;do out1=${f:0:-2}
 		gcc $f -o $out1
