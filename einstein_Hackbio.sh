@@ -21,7 +21,7 @@ for f in *.php;do php "$f">>einstein_Hackbio.csv;done
 for f in *.jl;do julia "$f">>einstein_Hackbio.csv;done
 for f in *.c;do out1=${f:0:-2}
 		gcc $f -o $out1
-		./$out1 >>stage0.csv;done
+		./$out1 >>einstein_Hackbio.csv;done
 for f in *.java;do out1=${f:0:-5}
 		javac $f             
 		java $out1 >>stage0.csv;done
