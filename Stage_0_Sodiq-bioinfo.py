@@ -1,8 +1,8 @@
 Name = "Sodiq"
 Email = "oyekunlesodiq7@gmail.com"
-slack_username = "@sud"
+slack_username = "@SUD"
 biostack = "Genomics"
-Twitter= "@sudfinder"
+Twitter= "@SUDfinder"
 def hd(slack_username,Twitter):
   dis=0
   for i in range(len(slack_username)):
