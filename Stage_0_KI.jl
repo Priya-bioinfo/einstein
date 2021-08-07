@@ -17,4 +17,4 @@ for i in 1:length(Slack_username)
     end 
 
 end
-println("$Name, $Email, $Biostack, $Slack_username, $Twitter_handler, $hd")
+println("$Name,$Email,$Slack_username,$Biostack,$Twitter_handler,$hd")
