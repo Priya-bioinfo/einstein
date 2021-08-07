@@ -1,7 +1,7 @@
-r = getOption("repos")
-r["CRAN"] = "http://cran.us.r-project.org"
-options(repos = r)
-install.packages("DescTools", verbose = FALSE, quiet = TRUE)
+#r = getOption("repos")
+#r["CRAN"] = "http://cran.us.r-project.org"
+#options(repos = r)
+#install.packages("DescTools", verbose = FALSE, quiet = TRUE)
 suppressPackageStartupMessages(library(DescTools))
 name <- "Eshaan"
 email <- "eshaan.nex@gmail.com"
